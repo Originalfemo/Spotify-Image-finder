@@ -1,2 +1,4 @@
-# Spotify-Image-finder
-A Python project that uses the Spotify API to search for artists and tracks by name and retrieve their image URLs, saving the results to an Excel file for easy access.
+# Overview
+This repository contains two Python scripts that interact with the Spotify API to fetch artist and track images. The scripts are designed to:
+* Search for artist images by artist name
+* Retrieve track images by Spotify track ID
