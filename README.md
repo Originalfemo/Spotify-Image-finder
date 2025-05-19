@@ -17,7 +17,8 @@ Before using these scripts, you'll need:
 * Add your credentials to both Python files
 
 ## Scripts
-Artist Image Search (Artist_image_search.py)
+1. Artist Image Search (Artist_image_search.py)
+
 **Purpose**: Fetches artist images from Spotify by artist name.
 
 **Input Requirements:**
@@ -28,3 +29,18 @@ Artist Image Search (Artist_image_search.py)
 * Creates artist_images.xlsx with two columns:
     * Artist: The artist name searched
     * Image URL: The URL of the artist's image (or "No image available"/"No artist found")
+
+
+2. Track Image Search (Tracks_image_search.py)
+
+**Purpose:** Fetches track/album images from Spotify by track ID.
+
+**Input Requirements:**
+
+* Excel file named track_ids.xlsx
+* Excel file must contain a column named "Track ID" with Spotify track IDs
+
+**Output:**
+Creates track_images.xlsx with two columns:
+* Track ID: The Spotify track ID searched
+* Image URL: The URL of the track's album image (or "No image available"/"No track found")
