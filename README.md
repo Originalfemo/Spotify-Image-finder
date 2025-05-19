@@ -9,3 +9,22 @@ Before using these scripts, you'll need:
 * [A Spotify Developer account](https://developer.spotify.com/)
 * Spotify API credentials (Client ID and Client Secret)
 
+## Setup
+* Clone this repository
+* Obtain your Spotify API credentials:
+    * Go to the Spotify Developer Dashboard
+    * Create an app to get your Client ID and Client Secret
+* Add your credentials to both Python files
+
+## Scripts
+Artist Image Search (Artist_image_search.py)
+**Purpose**: Fetches artist images from Spotify by artist name.
+
+**Input Requirements:**
+* Excel file named artist_names.xlsx
+* Excel file must contain a column named "Artist" with artist names
+
+**Output:**
+* Creates artist_images.xlsx with two columns:
+    * Artist: The artist name searched
+    * Image URL: The URL of the artist's image (or "No image available"/"No artist found")
