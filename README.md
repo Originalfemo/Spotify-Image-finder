@@ -6,6 +6,6 @@ This repository contains two Python scripts that interact with the Spotify API t
 ## Prerequisites
 Before using these scripts, you'll need:
 * Python 3 installed. Required Python packages: requests, pandas
-* [A Spotify Developer account] (https://developer.spotify.com/)
+* [[A Spotify Developer account](https://developer.spotify.com/)]
 * Spotify API credentials (Client ID and Client Secret)
 
