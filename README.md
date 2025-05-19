@@ -47,3 +47,14 @@ Creates track_images.xlsx with two columns:
 
 * Track ID: The Spotify track ID searched
 * Image URL: The URL of the track's album image (or "No image available"/"No track found")
+
+
+## Error Handling
+Both scripts include basic error handling:
+
+* Invalid artist names/track IDs will be noted in the output
+* Missing images will be indicated in the output file
+
+
+## Limitations
+* Data Availability: Not all artists/tracks may have images available
